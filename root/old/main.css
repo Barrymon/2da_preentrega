@@ -1,0 +1,276 @@
+.backimage {
+    background-image: url(../images/background6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedorPrincipal{
+    width: 100%;
+    display: flex;
+}
+
+.contenedorSecundario{
+    margin-right: 16%;
+    margin-left: 16%;
+}
+
+.container{
+   padding-left: 5px; padding-right: 5px;
+}
+
+.container_uno{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.iconos{
+    display: flex;
+}
+
+.iconos1{
+    padding-right: 3px;
+}
+
+.box_mirk {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.mirkwood_style {
+    width: 5%;
+    display: inline-block;
+}
+
+.container_dos{
+    padding-left: 5px; padding-right: 5px;
+}
+
+.cuadropag2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.dentrodelcuadro{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.parrafo{
+    width: 90%;
+    font-size: 20px;
+}
+
+.foto{
+    border-style: solid;
+    border-radius: 100%; 
+    width:250px; 
+    height:250px;  
+}
+
+.page2{
+  display: flex;
+}
+
+.titulo{
+    font-size: 4rem;
+    text-align: center;
+    font-family: papyrus;
+    font-weight: bold;
+    padding-bottom: 3rem;
+    transition: font-size .8s, color .3s;
+}
+.titulo:hover{
+
+    font-size: 2rem;
+    color: darkgreen;
+}
+
+.titulo2{
+    font-size: 2.5rem;
+    text-align: center;
+
+} 
+
+@media (min-width: 768px) {
+
+    .titulo{
+        font-size: 6rem;
+     }
+     .titulo:hover{
+         font-size: 3.5rem;
+     }
+
+     .titulo2{
+        font-size: 3.5rem;
+    } 
+
+}
+
+
+@media (min-width: 1020px) {
+
+    .titulo{
+        font-size: 8rem;
+     }
+     .titulo:hover{
+         font-size: 4rem;
+     }
+
+     .titulo2{
+        font-size: 4rem;
+    } 
+
+
+}
+
+.contactanos1{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 111px;
+}
+
+.mapa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ml-100{
+    margin-left: 400px;
+}
+
+.mapa1{
+    border: 0;
+    width: 500px;
+    height: 300px;
+}
+
+.tituloinfo{
+       display: flex;
+       border-width: thin;
+       border-style: solid;
+       max-width: max-content;
+       margin-left: auto; 
+}
+
+.formulario{
+    display: flex;
+    border-width: thick;
+    border-style: solid;
+    max-width: max-content;
+    margin-left: 652px;
+}
+
+.contenedorSecundariodeverdad{
+    width: -webkit-fill-available;
+
+}
+
+.section_header_novedades{
+    text-align: center;
+}
+
+.titulo_noticias{
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0px -5px 1px #aaa, 0px 0px 1px rgb(0 0 0 / 50%), 4px 2px 0px rgb(0 0 0 / 70%), 0px 0px 0px rgb(0 0 0 / 40%);
+}
+
+.noticias{
+    display: flex;
+}
+
+.imagenes_noticias1{
+    width: 33%; 
+    padding-right: 10px;
+}
+
+.noticia1{
+    max-width: 100%;
+}
+
+.imagenes_noticias2{
+    width: 33%; 
+    padding-right: 10px;
+}
+
+.imagenes_noticias3{
+    width: 33%; 
+    padding-right: 10px;
+}
+
+.imagenes_pag3{
+    padding-left: 10%;
+    padding-right: 10%
+}
+
+
+@media (min-width: 768px) {
+    .imagenes1{
+        display: grid!important;
+        grid-template-columns: repeat(2,1fr);   
+    }
+    
+    .imagenes2{
+        display: flex;
+        justify-content: flex-end;  
+        margin-top: 30px;
+    }
+    .imagen2_2{
+        width: 55%!important;
+    }
+}
+
+.imagen1_1{
+    max-width: 100%;
+}
+
+
+
+.parrafo_centrado{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.cuadro_pag3{
+    border-width: thick;
+    border-style: solid;
+    max-width: max-content;
+}
+
+.ultimo_texto{
+    /* margin-left: 652px; */
+    font-style: italic
+}
+
+.f_etiqueta{
+    margin-top: 100%;
+    margin-left: -100%;
+}
+
+.f_parrafo{
+    font-size: 20px;
+}
+
+.quienes{
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+}
+
+.links {
+    font-size: 18px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000000;
+}

@@ -1,276 +1,254 @@
+.text-center {
+  text-align: center; }
+
+.link_plano {
+  text-decoration: none;
+  color: #000000; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-size: 1.6rem; }
+
 .backimage {
-    background-image: url(../images/background6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+  background-image: url(../images/background6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
-.contenedorPrincipal{
-    width: 100%;
-    display: flex;
-}
+.contenedorPrincipal {
+  width: 100%;
+  display: flex; }
 
-.contenedorSecundario{
-    margin-right: 16%;
-    margin-left: 16%;
-}
+.contenedorSecundario {
+  margin-right: 16%;
+  margin-left: 16%; }
 
-.container{
-   padding-left: 5px; padding-right: 5px;
-}
+.container {
+  padding-left: 5px;
+  padding-right: 5px; }
 
-.container_uno{
-    display: flex; 
-    justify-content: space-between;
-}
+.container_uno {
+  display: flex;
+  justify-content: space-between; }
 
-.iconos{
-    display: flex;
-}
+.iconos {
+  display: flex; }
 
-.iconos1{
-    padding-right: 3px;
-}
+.iconos1 {
+  padding-right: 3px; }
 
 .box_mirk {
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-}
+  border-width: 2px;
+  border-color: black;
+  border-style: solid; }
 
 .mirkwood_style {
-    width: 5%;
-    display: inline-block;
-}
+  width: 5%;
+  display: inline-block; }
 
-.container_dos{
-    padding-left: 5px; padding-right: 5px;
-}
+.container_dos {
+  padding-left: 5px;
+  padding-right: 5px; }
 
-.cuadropag2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-}
-
-.dentrodelcuadro{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
-
-.parrafo{
-    width: 90%;
-    font-size: 20px;
-}
-
-.foto{
-    border-style: solid;
-    border-radius: 100%; 
-    width:250px; 
-    height:250px;  
-}
-
-.page2{
+.dentrodelcuadro {
   display: flex;
-}
+  justify-content: center;
+  font-size: 30px; }
 
-.titulo{
-    font-size: 4rem;
-    text-align: center;
-    font-family: papyrus;
-    font-weight: bold;
-    padding-bottom: 3rem;
-    transition: font-size .8s, color .3s;
-}
-.titulo:hover{
+.parrafo {
+  width: 90%;
+  font-size: 20px; }
 
-    font-size: 2rem;
-    color: darkgreen;
-}
+.foto {
+  border-style: solid;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px; }
 
-.titulo2{
-    font-size: 2.5rem;
-    text-align: center;
+.titulo {
+  font-size: 4rem;
+  text-align: center;
+  font-family: papyrus;
+  font-weight: bold;
+  padding-bottom: 3rem;
+  transition: font-size .8s, color .3s; }
 
-} 
+.titulo:hover {
+  font-size: 2rem;
+  color: darkgreen; }
+
+.titulo2 {
+  font-size: 2.5rem;
+  text-align: center; }
 
 @media (min-width: 768px) {
-
-    .titulo{
-        font-size: 6rem;
-     }
-     .titulo:hover{
-         font-size: 3.5rem;
-     }
-
-     .titulo2{
-        font-size: 3.5rem;
-    } 
-
-}
-
+  .titulo {
+    font-size: 6rem; }
+  .titulo:hover {
+    font-size: 3.5rem; }
+  .titulo2 {
+    font-size: 3.5rem; } }
 
 @media (min-width: 1020px) {
+  .titulo {
+    font-size: 8rem; }
+  .titulo:hover {
+    font-size: 4rem; }
+  .titulo2 {
+    font-size: 4rem; } }
 
-    .titulo{
-        font-size: 8rem;
-     }
-     .titulo:hover{
-         font-size: 4rem;
-     }
+.ml-100 {
+  margin-left: 400px; }
 
-     .titulo2{
-        font-size: 4rem;
-    } 
+.mapa1 {
+  border: 0;
+  width: 500px;
+  height: 300px; }
 
+.tituloinfo {
+  display: flex;
+  border-width: thin;
+  border-style: solid;
+  max-width: max-content;
+  margin-left: auto; }
 
-}
+.contenedorSecundariodeverdad {
+  width: -webkit-fill-available; }
 
-.contactanos1{
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-    width: 111px;
-}
+.section_header_novedades {
+  text-align: center; }
 
-.mapa{
-    display: flex;
-    justify-content: space-between;
-}
+.titulo_noticias {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline; }
 
-.ml-100{
-    margin-left: 400px;
-}
-
-.mapa1{
-    border: 0;
-    width: 500px;
-    height: 300px;
-}
-
-.tituloinfo{
-       display: flex;
-       border-width: thin;
-       border-style: solid;
-       max-width: max-content;
-       margin-left: auto; 
-}
-
-.formulario{
-    display: flex;
-    border-width: thick;
-    border-style: solid;
-    max-width: max-content;
-    margin-left: 652px;
-}
-
-.contenedorSecundariodeverdad{
-    width: -webkit-fill-available;
-
-}
-
-.section_header_novedades{
-    text-align: center;
-}
-
-.titulo_noticias{
-    font-family: "Trebuchet MS", Verdana, sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    text-decoration: underline;
-    text-shadow: 0px -5px 1px #aaa, 0px 0px 1px rgb(0 0 0 / 50%), 4px 2px 0px rgb(0 0 0 / 70%), 0px 0px 0px rgb(0 0 0 / 40%);
-}
-
-.noticias{
-    display: flex;
-}
-
-.imagenes_noticias1{
-    width: 33%; 
-    padding-right: 10px;
-}
-
-.noticia1{
-    max-width: 100%;
-}
-
-.imagenes_noticias2{
-    width: 33%; 
-    padding-right: 10px;
-}
-
-.imagenes_noticias3{
-    width: 33%; 
-    padding-right: 10px;
-}
-
-.imagenes_pag3{
-    padding-left: 10%;
-    padding-right: 10%
-}
-
+.noticias {
+  display: flex; }
 
 @media (min-width: 768px) {
-    .imagenes1{
-        display: grid!important;
-        grid-template-columns: repeat(2,1fr);   
-    }
-    
-    .imagenes2{
-        display: flex;
-        justify-content: flex-end;  
-        margin-top: 30px;
-    }
-    .imagen2_2{
-        width: 55%!important;
-    }
-}
-
-.imagen1_1{
-    max-width: 100%;
-}
-
-
-
-.parrafo_centrado{
-    text-align: center;
-    font-size: 25px;
-    font-weight: bolder;
-    font-style: oblique;
-    text-decoration: underline;
-}
-
-.cuadro_pag3{
-    border-width: thick;
-    border-style: solid;
-    max-width: max-content;
-}
-
-.ultimo_texto{
-    /* margin-left: 652px; */
-    font-style: italic
-}
-
-.f_etiqueta{
-    margin-top: 100%;
-    margin-left: -100%;
-}
-
-.f_parrafo{
-    font-size: 20px;
-}
-
-.quienes{
+  .imagenes1 {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr); }
+  .imagenes2 {
     display: flex;
-    flex-direction: column;
-    justify-content: end; 
-}
+    justify-content: flex-end;
+    margin-top: 30px; }
+  .imagen2_2 {
+    width: 55% !important; } }
+
+.imagen1_1 {
+  max-width: 100%; }
+
+.parrafo_centrado {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  font-style: oblique;
+  text-decoration: underline; }
+
+.cuadro_pag3 {
+  border-width: thick;
+  border-style: solid;
+  max-width: max-content; }
+
+.ultimo_texto {
+  /* margin-left: 652px; */
+  font-style: italic; }
+
+.f_etiqueta {
+  margin-top: 100%;
+  margin-left: -100%; }
+
+.f_parrafo {
+  font-size: 20px; }
 
 .links {
-    font-size: 18px;
-}
+  font-size: 18px; }
 
 .links a {
-    text-decoration: none;
-    color: #000000;
-}
+  text-decoration: none;
+  color: #000000; }
+
+.contenedor_mapa {
+  display: flex; }
+
+.mapa {
+  margin-top: 2rem; }
+  .mapa .mapa_frame {
+    width: 100%; }
+
+.contacto .contacto_titulo {
+  display: inline-block;
+  border: 2px solid #000000;
+  padding: .3rem; }
+
+.contacto .contacto_info {
+  margin-bottom: 3rem; }
+
+.contacto .contacto_formulario {
+  margin: 0 auto;
+  border: 2px solid #000000;
+  max-width: max-content;
+  padding: 1rem; }
+
+.contacto .campo {
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem; }
+
+.contacto .contacto_formulario_botones {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between; }
+
+.novedades_contenido {
+  margin: 0 auto;
+  padding: 0 2rem; }
+  .novedades_contenido .novedades_heading {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+    margin-bottom: 2rem; }
+  .novedades_contenido .novedades_noticia {
+    margin-bottom: 3rem; }
+  .novedades_contenido .novedades_noticias .imagen img {
+    max-width: 100%;
+    display: block; }
+  @media (min-width: 768px) {
+    .novedades_contenido .novedades_noticias {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 1rem; } }
+
+.orden_principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.quienes_somos_contenido {
+  margin: 0 auto;
+  padding: 0 1rem; }
+  .quienes_somos_contenido .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .quienes_somos_contenido .quienes_foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: end; }
+  .quienes_somos_contenido .quienes_somos_flex {
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .quienes_somos_contenido .contenido_heading {
+    text-align: center; }
+  @media (min-width: 768px) {
+    .quienes_somos_contenido {
+      padding: 0 10rem; } }

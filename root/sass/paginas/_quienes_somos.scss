@@ -1,0 +1,42 @@
+@import '../base/mixins';
+@import '../base/variables';
+
+.orden_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quienes_somos_contenido {
+
+    margin: 0 auto;
+    padding: 0 1rem;
+
+
+    .texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+    }
+    
+    .quienes_foto{
+        display: flex;
+        flex-direction: column;
+        justify-content: end; 
+    }
+    
+
+    .quienes_somos_flex{
+        display: flex;
+        padding-left: 5px; 
+        padding-right: 5px;
+      }
+
+    .contenido_heading {
+        text-align: center;
+    }
+
+    @include tablet {
+        padding: 0 10rem;
+    }
+}
