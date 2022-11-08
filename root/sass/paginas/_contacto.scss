@@ -1,0 +1,56 @@
+@import '../base/mixins';
+@import '../base/variables';
+
+.contenedor_mapa {
+    display: flex;
+}
+
+.mapa {
+
+    margin-top: 2rem;
+
+        .mapa_frame {
+
+            width: 100%;
+        }
+}
+
+
+.contacto {
+
+    .contacto_titulo {
+        display: inline-block;
+        border: $anchoBordes solid $negro;
+        padding: .3rem;
+    }
+
+    .contacto_info {
+        margin-bottom: 3rem;
+    }
+
+    .contacto_formulario {
+        margin: 0 auto;
+        border: $anchoBordes solid $negro;
+        max-width: max-content;
+        padding: 1rem;
+    }
+
+
+    .campo {
+        gap: 1rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+
+    .contacto_formulario_botones {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+
+
+}

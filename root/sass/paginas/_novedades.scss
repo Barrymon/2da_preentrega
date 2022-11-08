@@ -1,0 +1,35 @@
+@import '../base/mixins';
+@import '../base/variables';
+
+.novedades_contenido {
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    .novedades_heading {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .novedades_noticia {
+        margin-bottom: 3rem;
+    }
+
+    .novedades_noticias {
+
+        .imagen {
+            img {
+                max-width: 100%;
+                display: block;
+    
+            }
+        }
+
+        @include tablet {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 1rem;
+        }
+    }
+}
