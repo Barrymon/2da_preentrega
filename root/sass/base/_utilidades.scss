@@ -1,10 +1,44 @@
 @import 'variables';
+@import 'mixins';
 
-.text-center {
+.text_center {
     text-align: center;
 }
+
+.text_right {
+    text-align: end;
+}
+
 
 .link_plano {
     text-decoration: none;
     color: $negro;
+}
+ .link_plano:hover {
+    color: $negro;
+ }
+
+
+.pantalla_completa {
+    height: 100vh;
+
+    &--contacto {
+        @include tablet {
+            height: 100vh;
+        }
+    }
+}
+
+.block_center {
+    margin: 0 auto;
+}
+
+.orden_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.negrita {
+    font-weight: 700;
 }

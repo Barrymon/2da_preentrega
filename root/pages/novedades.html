@@ -5,111 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <title>Novedades</title>
 
 <body class="backimage">
-    <header class="container mt-3 mb-5">
-        <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
-            <div>
-                <h3 class="box_mirk mb-0">
-                    <a class="link_plano" href="../index.html">MIRKWOOD</a>
-
+    <header class="contenedor header">
+        <div class="header__cabecera">
+            <a class="link_plano" href="../index.html">
+                <h3 class="header__compania">
+                    MIRKWOOD
                 </h3>
+            </a>
 
-            </div>
+            <div class="header__iconos">
+                <a href="https://www.facebook.com/mirkwoodenglish" target="blank">
+                    <img class="header__iconos--img" src="../images/facebook.png" alt="icono facebook">
+                </a>
 
-            <div class="iconos">
-                <div class="iconos1">
-                    <a href="https://www.facebook.com/mirkwoodenglish" target="blank">
-                        <img src="../images/facebook.png">
-                    </a>
-                </div>
+                <a href="https://www.instagram.com/mirkwoodschool/?hl=es" target="blank">
+                    <img class="header__iconos--img" src="../images/instagram.png" alt="icono instagram">
+                </a>
 
-
-                <div class="iconos1">
-                    <a href="https://www.instagram.com/mirkwoodschool/?hl=es" target="blank">
-                        <img src="../images/instagram.png">
-                    </a>
-                </div>
-
-
-                <div class="iconos1">
-                    <a href="https://www.instagram.com/mirkwoodschool/?hl=es" target="blank">
-                        <img src="../images/twitter.png">
-                    </a>
-                    <!--Redirecciona a perfil de Instagram porque no hay hecho de Twitter-->
-                </div>
+                <a href="https://www.instagram.com/mirkwoodschool/?hl=es" target="blank">
+                    <img class="header__iconos--img" src="../images/twitter.png" alt="icono twitter">
+                </a>
+                <!--Redirecciona a perfil de Instagram porque no hay hecho de Twitter-->
             </div>
         </div> <!-- FIN Mirkwood-->
 
-
-        <div class="d-md-none">
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Menu
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="quienes_somos.html">Quienes somos</a></li>
-                    <li><a class="dropdown-item" href="que_ofrecemos.html">Que ofrecemos</a></li>
-                    <li><a class="dropdown-item" href="novedades.html">Novedades</a></li>
-                    <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-
-        <div class="d-none d-md-block contacto-nav">
-            <div class="contenedor_mapa">
-
-                <div>
+        <div class="header__menu">
+            <nav class="header__navegacion">
+                <ul>
                     <h3>
-                        Menu
+                        <li class="header__navegacion--links">
+                            <a class="link_plano" href="../pages/quienes_somos.html">Quienes somos</a>
+                        </li>
                     </h3>
-                    <nav>
-                        <ul>
-                            <h3>
-                                <li class="links">
-                                    <a href="quienes_somos.html">Quienes somos</a>
-                                </li>
-                            </h3>
-                            <h3>
-                                <li class="links">
-                                    <a href="que_ofrecemos.html">Que ofrecemos</a>
-                                </li>
-                            </h3>
-                            <h3>
-                                <li class="links">
-                                    <a href="novedades.html">Novedades</a>
-                                </li>
-                            </h3>
-                            <h3>
-                                <li class="links">
-                                    <a href="contacto.html">Contacto</a>
-                                </li>
-                            </h3>
-                        </ul>
-                    </nav>
-                </div>
-
-            </div>
-
+                    <h3>
+                        <li class="header__navegacion--links">
+                            <a class="link_plano" href="../pages/que_ofrecemos.html">Que ofrecemos</a>
+                        </li>
+                    </h3>
+                    <h3>
+                        <li class="header__navegacion--links">
+                            <a class="link_plano" href="../pages/novedades.html">Novedades</a>
+                        </li>
+                    </h3>
+                    <h3>
+                        <li class="header__navegacion--links">
+                            <a class="link_plano" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </h3>
+                </ul>
+            </nav>
         </div>
     </header>
 
 
-    <section class="novedades_contenido">
-            <h2 class="novedades_heading">
+    <section class="novedades">
+            <h2 class="novedades__heading">
                 Novedades
             </h2>
                 
-        <div class="novedades_noticias">
-            <div class="novedades_noticia">
-                <div class="imagen">
+        <div class="novedades__noticias">
+            <div class="novedades__noticia">
+                <div class="novedades__imagen">
                     <img src="../images/king_charles_iii.png" alt="King Charles III">
                 </div>
                 
@@ -146,12 +107,12 @@
                     for all," he says.
                 </p>
                 <p>
-                    Source:<a href="https://www.bbc.com/news/science-environment-63011145">How King Charles helped
+                    <span class="negrita">Source: </span><a href="https://www.bbc.com/news/science-environment-63011145">How King Charles helped
                         save British farmhouse cheese</a>
                 </p>
             </div>
-            <div class="novedades_noticia">
-                <div class="imagen">
+            <div class="novedades__noticia">
+                <div class="novedades__imagen">
                     <img src="../images/sin_titulo.png" alt="Russian war">
                 </div>
                 
@@ -181,12 +142,12 @@
                     official Kremlin website.
                 </p>
                 <p>
-                    Source:<a href="https://www.bbc.com/news/world-europe-63036985">Ukraine war: Russia admits
+                    <span class="negrita">Source: </span><a href="https://www.bbc.com/news/world-europe-63036985">Ukraine war: Russia admits
                         mobilisation errors, amid growing public opinion opposition</a>
                 </p>
             </div>
-            <div class="novedades_noticia">
-                <div class="imagen">
+            <div class="novedades__noticia">
+                <div class="novedades__imagen">
                     <img src="../images/snowden.png" alt="Edward Snowden">
                 </div>
                 
@@ -234,21 +195,19 @@
                     Reports in opposition Russian media suggest that up to one million people could be called up.
                 </p>
                 <p>
-                    Source:<a href="https://www.bbc.com/news/world-europe-63036991">Edward Snowden granted Russian
+                    <span class="negrita">Source: </span><a href="https://www.bbc.com/news/world-europe-63036991">Edward Snowden granted Russian
                         citizenship</a>
                 </p>
             </div>
         </div>
 
     </section>
-    <footer class="container">
-        <p class="container fs-3">
+    
+    <footer class="contenedor">
+        <p class="footer">
             All rights reserved
         </p>
     </footer>
-
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </body>
 
