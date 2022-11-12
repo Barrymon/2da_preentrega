@@ -1,0 +1,54 @@
+@import '../base/mixins';
+@import '../base/variables';
+
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__titulo {
+        font-size: 6rem;
+        text-align: center;
+        font-family: papyrus;
+        font-weight: bold;
+        margin-top: -12rem;
+        margin-bottom: 0;
+        transition: font-size .8s, color .3s;
+
+        &:hover {
+            font-size: 3rem;
+            color: darkgreen;
+        }
+
+        @include tablet {
+            font-size: 10rem;
+            &:hover{
+                 font-size: 5rem;
+             }
+        }
+
+        @include desktop {
+            font-size: 15rem;
+            
+            &:hover{
+                 font-size: 7.5rem;
+             }
+        }
+    }
+
+    &__subtitulo {
+        text-decoration: underline;
+        text-align: center;
+        font-size: 3rem;
+
+        @include tablet {
+            font-size: 5rem;
+        }
+
+        @include desktop {
+            font-size: 7rem;
+        }
+
+    }
+}

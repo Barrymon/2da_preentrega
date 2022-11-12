@@ -1,0 +1,41 @@
+@import '../base/mixins';
+@import '../base/variables';
+
+.ofrecemos {
+
+    margin: 3rem auto;
+
+    &__heading {
+        text-align: center;
+        font-size: 2.5rem;
+        
+        @include tablet {
+            font-size: 3rem;
+        }
+    }
+
+    &__imagenes {
+        margin: 3rem auto;
+    }
+
+    &__imagen {
+        margin: 0 auto 2rem auto;
+        @include tablet {
+            display: flex;
+            justify-content: flex-start;
+
+            &--end {
+                justify-content: flex-end;
+            }
+
+            &--img {
+                width: 50%;
+            }
+        }
+    }
+
+    &__clases {
+        margin-top: 2rem;
+    }
+
+}

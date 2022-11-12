@@ -1,56 +1,39 @@
 @import '../base/mixins';
 @import '../base/variables';
 
-.contenedor_mapa {
-    display: flex;
-}
-
-.mapa {
-
-    margin-top: 2rem;
-
-        .mapa_frame {
-
-            width: 100%;
-        }
-}
-
-
 .contacto {
 
-    .contacto_titulo {
+    margin-top: 3rem;
+
+    &__titulo {
         display: inline-block;
-        border: $anchoBordes solid $negro;
+        border: $ancho_bordes solid $negro;
         padding: .3rem;
+        margin: 2rem auto;
     }
 
-    .contacto_info {
+    &__info {
         margin-bottom: 3rem;
     }
 
-    .contacto_formulario {
+    &__formulario {
         margin: 0 auto;
-        border: $anchoBordes solid $negro;
+        border: $ancho_bordes solid $negro;
         max-width: max-content;
         padding: 1rem;
     }
 
-
-    .campo {
+    &__campo {
         gap: 1rem;
         display: flex;
         justify-content: space-between;
         margin-bottom: 1rem;
+
+        &--botones {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+        }
     }
-
-    .contacto_formulario_botones {
-        margin-top: 2rem;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-
-
 
 }

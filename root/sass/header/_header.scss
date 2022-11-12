@@ -1,0 +1,87 @@
+@import '../base/mixins';
+@import '../base/variables';
+
+
+.header {
+    margin-top: 3rem;
+
+    &__cabecera {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+
+    &__compania {
+        padding: 1rem;
+        border: $ancho_bordes solid $negro;
+        font-size: 2rem;
+        transition: background-color .3s ease-in-out;
+
+        &:hover {
+            background-color: $negro;
+            color: $blanco;
+        }
+
+    }
+
+    &__iconos {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+
+        &--img {
+            width: 2rem;
+        }
+    }
+
+    &__navegacion {
+        text-align: center;
+        
+        &--links {
+            list-style-type: none;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        @include tablet {
+            text-align: left;
+
+            &--links {
+                list-style-type: disc;
+            }
+            
+        }
+    }
+
+    &__menu {
+        &--flex {
+            display: flex;
+            flex-direction: column;
+            
+            @include tablet {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    &__mapa {
+        margin: 0 5rem;
+        &--iframe {
+            width: 100%;
+        }
+        
+        @include tablet {
+            margin: 0;
+            width: 40rem;
+            height: 20rem;
+            
+            &--iframe {
+                width: 100%;
+                height: 30rem;
+            }
+        }
+    }
+}
+
+

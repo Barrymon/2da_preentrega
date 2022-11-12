@@ -13,77 +13,51 @@
 
 <body class="backimage">
 
-
-    <header class="container mt-3 mb-5">
-        <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
-            <div>
-                <h3 class="box_mirk mb-0">
+    <header class="contenedor header">
+        <div class="header__cabecera">
+            <a class="link_plano" href="../index.html">
+                <h3 class="header__compania">
                     MIRKWOOD
                 </h3>
+            </a>
 
-            </div>
+            <div class="header__iconos">
+                <a href="https://www.facebook.com/mirkwoodenglish" target="blank">
+                    <img class="header__iconos--img" src="../images/facebook.png" alt="icono facebook">
+                </a>
 
-            <div class="iconos">
-                <div class="iconos1">
-                    <a href="https://www.facebook.com/mirkwoodenglish" target="blank">
-                        <img src="../images/facebook.png">
-                    </a>
-                </div>
+                <a href="https://www.instagram.com/mirkwoodschool/?hl=es" target="blank">
+                    <img class="header__iconos--img" src="../images/instagram.png" alt="icono instagram">
+                </a>
 
-
-                <div class="iconos1">
-                    <a href="https://www.instagram.com/mirkwoodschool/?hl=es" target="blank">
-                        <img src="../images/instagram.png">
-                    </a>
-                </div>
-
-
-                <div class="iconos1">
-                    <a href="https://www.instagram.com/mirkwoodschool/?hl=es" target="blank">
-                        <img src="../images/twitter.png">
-                    </a>
-                    <!--Redirecciona a perfil de Instagram porque no hay hecho de Twitter-->
-                </div>
+                <a href="https://www.instagram.com/mirkwoodschool/?hl=es" target="blank">
+                    <img class="header__iconos--img" src="../images/twitter.png" alt="icono twitter">
+                </a>
+                <!--Redirecciona a perfil de Instagram porque no hay hecho de Twitter-->
             </div>
         </div> <!-- FIN Mirkwood-->
 
-        <div class="dropdown d-md-none">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Menu
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../index.html">Home</a></li>
-              <li><a class="dropdown-item" href="quienes_somos.html">Quienes somos</a></li>
-              <li><a class="dropdown-item" href="novedades.html">Novedades</a></li>
-              <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-            </ul>
-          </div>
-
-
-        <div class="d-none d-md-block">
-            <h3>
-                Menu
-            </h3>
-            <nav>
+        <div class="header__menu">
+            <nav class="header__navegacion">
                 <ul>
                     <h3>
-                        <li class="links">
-                            <a href="../index.html">Home</a>
+                        <li class="header__navegacion--links">
+                            <a class="link_plano" href="../pages/quienes_somos.html">Quienes somos</a>
                         </li>
                     </h3>
                     <h3>
-                        <li class="links">
-                            <a href="quienes_somos.html">Quienes somos</a>
+                        <li class="header__navegacion--links">
+                            <a class="link_plano" href="../pages/que_ofrecemos.html">Que ofrecemos</a>
                         </li>
                     </h3>
                     <h3>
-                        <li class="links">
-                            <a href="novedades.html">Novedades</a>
+                        <li class="header__navegacion--links">
+                            <a class="link_plano" href="../pages/novedades.html">Novedades</a>
                         </li>
                     </h3>
                     <h3>
-                        <li class="links">
-                            <a href="contacto.html">Contacto</a>
+                        <li class="header__navegacion--links">
+                            <a class="link_plano" href="../pages/contacto.html">Contacto</a>
                         </li>
                     </h3>
                 </ul>
@@ -91,30 +65,28 @@
         </div>
     </header>
 
-    <section class="container flex-sm-column mb-3">
-        <p class="parrafo_centrado">
+
+    <section class="contenedor ofrecemos">
+        <h2 class="ofrecemos__heading">
             Tenemos una amplia trayectoria dando clases a lo largo de estos últimos 10 años con muchos
             estudiantes satisfechos
-        </p>
+        </h2>
 
-        <div class="d-sm-flex justify-content-sm-center imagenes1">
-            <img src="../images/imagen1.jpeg" class="imagen1_1">
+        <div class="ofrecemos__imagenes">
+            <div class="ofrecemos__imagen">
+                <img class="ofrecemos__imagen--img" src="../images/imagen1.jpeg" alt="imagen ofrecemos 1">
+            </div>
+
+            <div class="ofrecemos__imagen ofrecemos__imagen--end">
+                <img class="ofrecemos__imagen--img" src="../images/imagen2.png" alt="imagen ofrecemos 2">
+            </div>
         </div>
-    </section>
 
-    <section class="container flex-sm-column">
-        <div class="imagenes2">
-            <img src="../images/imagen2.png" class=" w-100 imagen2_2">
-        </div>
-
-        <p class="parrafo_centrado">
+        <h2 class="ofrecemos__heading">
             Te ofrecemos una variedad de cursos que se ajustan a tu medida
-        </p>
+        </h2>
 
-    </section>
-
-    <section class="container d-flex flex-column w-100 mb-5">
-        <div class="cuadro_pag3 p-2">
+        <div class="ofrecemos__clases">
             <ul>
                 <li><h3>Clases de conversación</h3>
                     <p>
@@ -134,23 +106,18 @@
             </ul>
         </div>
     
-        <div class="ultimo_texto text-end">
-            <h2>NO TE QUEDES AFUERA!</h2>
-        </div>
+        <h2 class="text_right">NO TE QUEDES AFUERA!</h2>
+
     </section>
 
 
 
-    <footer class="container">
-        <p class="fs-4">
+    <footer class="contenedor">
+        <p class="footer">
             All rights reserved
         </p>
     </footer>
 
-
-
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>
